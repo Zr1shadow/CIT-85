@@ -1,0 +1,15 @@
+div p{
+    font-size: 15;
+}
+
+div > p{
+    color: red;
+}
+
+div ~ p {
+    color: green;
+}
+
+div + p{
+    color: yellow;
+}
