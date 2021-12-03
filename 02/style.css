@@ -1,0 +1,28 @@
+li:first-child{
+    color: green;
+}
+
+li:nth-child(even){
+    color: yellow;
+}
+
+li:nth-child(2){
+    color:green;
+}
+
+li:nth-child(odd){
+    color:green;
+}
+
+/* starts at cinco and happens every 10 times after */
+li:nth-last-child(10n+5){
+    color:red;
+}
+li:last-child{
+    color:red;
+}
+
+ul:only-child{
+    background-color: black;
+}
+
