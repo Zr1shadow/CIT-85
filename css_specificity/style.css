@@ -1,0 +1,40 @@
+/* target all divs */
+div{
+    background-color: black;
+}
+
+/* choose all div with id of div_id */
+#div_id{
+    background-color: brown;
+}
+
+/* select child p tags of divs */
+div > p{
+    color:white;
+}
+
+/* select first letter of h1 tags */
+h1::first-letter{
+    color: blue;
+    font-family: cursive;
+}
+
+/* select second child p tag and makes them blue */
+div > p:nth-child(2){
+    color:blue;
+}
+
+/* select p_tag class */
+.p_tag{
+    color:lightcoral;
+}
+/* makes first line of h1 yellow  */
+h1::first-line{
+    color:yellow;
+}
+
+/* all h1 tags */
+h1{
+    background-color: aqua;
+}
+
