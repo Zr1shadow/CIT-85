@@ -1,0 +1,26 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    background-color: rgb(1, 101, 250);
+    text-align: center;
+}
+
+li{
+    border-bottom: 1px solid grey;
+    padding: 7px
+}
+a{
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    ul{
+        display:flex;
+        justify-content: end;
+    }
+}

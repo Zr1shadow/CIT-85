@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;
+}
+
+header{
+    height: 50px;
+    background-color: red;
+}
+
+main{
+    background-color: rgb(77, 77, 231);
+    padding:5px;
+}
+
+.num_1{
+    background-color: yellow;
+}
+
+.num_2{
+    background-color: pink;
+}
+
+footer{
+    background-color: green;
+}
+
+@media screen and (min-width: 600px) {
+    div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    aside{
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    div{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .num_1{
+        order: 1;
+    }
+    
+    .num_2{
+        order:3;
+    }
+
+    aside{
+        flex-shrink: 1;
+        flex-basis: 25%;
+    }
+
+    main{
+        order:2;
+        flex-shrink: 2;
+    }
+}

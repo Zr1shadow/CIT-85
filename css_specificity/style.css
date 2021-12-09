@@ -1,3 +1,8 @@
+div p h1{
+    width:100px;
+    height:auto;
+    border: 1px;
+}
 /* target all divs */
 div{
     background-color: black;

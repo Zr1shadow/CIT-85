@@ -1,0 +1,32 @@
+*{
+    font-family: 'Roboto',serif, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+p{
+    font-weight: 500;
+}
+#short{
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+
+h1{
+    text-shadow: 5px 5px black;
+    text-indent: 10%;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+span{
+    text-decoration: line-through;
+}

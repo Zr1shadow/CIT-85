@@ -1,0 +1,13 @@
+body{
+    display: flex;
+}
+div{
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+div:nth-child(2){
+    flex-grow:2;
+    background-color: red;
+}

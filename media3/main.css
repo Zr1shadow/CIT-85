@@ -1,0 +1,32 @@
+*{
+    list-style: none;
+}
+nav{
+    text-align: center;
+    border-bottom: 4px solid red;
+}
+li{
+    padding: 5px;
+    display: inline;
+}
+
+p{
+    padding: 0 5px;
+}
+
+div{
+    border: 1px solid red;
+}
+
+@media screen and (min-width: 500px) {
+    div{
+        display: flex;
+    }
+    li{
+        display: block;
+    }
+    nav{
+        border-right: 4px solid red;
+        border-bottom: 0; 
+    }
+}
