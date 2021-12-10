@@ -1,0 +1,21 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#right{
+    float: right;
+}
+
+#left{
+    float: left;
+}
+
+div, img{
+    border: 2px dashed black;
+    margin: 20px;
+}
+
+div{
+    overflow: auto;
+}

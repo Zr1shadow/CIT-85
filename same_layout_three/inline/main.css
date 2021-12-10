@@ -1,0 +1,29 @@
+#one{
+    background-color: yellow;
+    border: 5px solid blue;
+    height: 100px;
+}
+
+
+#two{
+    background-color: blue;
+    border: 5px solid black;
+    height: 100px; 
+    width: 15%;
+    display: inline-block;
+}
+
+
+#three{
+    background-color: green;
+    border: 5px solid black;
+    height: 100px;
+    width: 83.7%;
+    display: inline-block;
+}
+
+#four{
+    background-color: purple;
+    border: 5px solid Red;
+    height: 100px;
+}

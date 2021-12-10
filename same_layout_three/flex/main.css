@@ -1,0 +1,29 @@
+#one{
+    background-color: yellow;
+    border: 5px solid blue;
+    height: 100px;
+}
+
+#flex{
+    display: flex;
+}
+
+#two{
+    background-color: blue;
+    border: 5px solid black;
+    height: 100px; 
+    flex:1;
+}
+
+#three{
+    background-color: green;
+    border: 5px solid black;
+    height: 100px;
+    flex:2;
+}
+
+#four{
+    background-color: purple;
+    border: 5px solid Red;
+    height: 100px;
+}
